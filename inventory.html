@@ -1,0 +1,66 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Inventory</title>
+<link rel ="stylesheet" href="style2.css"/>
+</head>
+
+<body>
+
+ <nav>
+        <div class="logo">SMILEYCARE</div>
+        <div class="nav-items">
+          <a href="register.html">Register</a>
+          <a href="inventory.html">Inventory</a>
+          <a href="data.html">Data</a>
+        </div>
+      </nav>
+      &nbsp;
+      &nbsp;
+<form action="scinventory.php" method="post">
+<div class="content">
+<h2 align="center">SMILEYCARE Inventory</h2><br>
+<h3 align="center">"To Keep Track on the Inventory of Medicine"</h3>
+&nbsp;
+&nbsp;
+&nbsp;
+<table border="1">
+ <tr>
+    <th>Name</th>
+    <th>Quantity</th>
+    <th>Expiry Date</th>
+    <th>Batch Number</th>
+    <th>Supplier</th>
+  </tr>
+  <tr>
+    <td><input type="text" name="mname1" size="15" required></td>
+    <td><input type="text" name="mquantity1" size="15" required></td>
+    <td><input type="text" name="mexpdate1" size="15" required></td>
+    <td><input type="text" name="mbatchno1" size="15"required></td>
+    <td><input type="text" name="msupplier1" size="15" required></td>
+  </tr>
+  <tr>
+<td width="104"><input type="submit" name="submitBtn" value="Submit"></td>
+<td width="350"><input type="reset" name="resetBtn" value="Clear"></td>
+</tr>
+</table>
+</form>
+
+</div>
+
+<div class="footer">
+<hr>
+<p style="margin:0px">
+<a href="register.html">Register</a> &nbsp;
+<a href="inventory.html">Inventory</a> &nbsp;
+<a href="data.html">Data</a>
+</p>
+&nbsp;
+<p>Copyright &copy; 2023 SMILEYCARE RECORD SYSTEM &trade;<br>
+No material may be reproduced without written permission<br>
+</p><hr />
+</footer>
+</div>
+</body>
+</html>

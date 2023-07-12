@@ -1,0 +1,95 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Patient Registration </title>
+<link rel ="stylesheet" href="style2.css"/>
+</head>
+
+<body>
+
+    <nav>
+        <div class="logo">SMILEYCARE</div>
+        <div class="nav-items">
+          <a href="register.html">Register</a>
+          <a href="inventory.html">Inventory</a>
+          <a href="data.html">Data</a>
+        </div>
+      </nav>
+      &nbsp;
+      &nbsp;
+
+<h1 align="center">
+<img src="smileycare.png" width="400" height="200" /></h1>
+<div class="content">
+<form method="post" action="registerpatient.php" name="Patient Record">
+<h2 align="center">Patient Registration</h2><br>
+<h3 align="center">"To keep health and treatment record of patient. "</h3>
+<section class ="form">
+<table align="center" border="1">
+<tr>
+<th width="104">Name</td>
+<td width="350"><input type="text" name="pname" size="50" required></td>
+</tr>
+<tr>
+<th width="104">IC-number</td>
+<td width="350"><input type="text" name="picno" size="50" required></td>
+</tr>
+<tr>
+<th width="104">Date of Birth</td>
+<td width="350"><input type="date" name="pdob" size="30" required></td>
+</tr>
+<tr>
+<th width="104">Gender</td>
+<td width="350"><input type="text" name="pgender" size="30" required></td>
+</tr>
+<tr>
+<th width="104">Address</td>
+<td width="350"><input type="text" name="paddress" size="50" required></td>
+</tr>
+<tr>
+<th width="104">Contact Number</td>
+<td width="350"><input type="text" name="pcontact" size="30" required></td>
+</tr>
+<tr>
+<th width="104">Email</td>
+<td width="350"><input type="email" name="pemail" size="30" required></td>
+</tr>
+<tr>
+<th width="104">Occupation</td>
+<td width="350"><input type="text" name="poccupation" size="30" required></td>
+</tr>
+<tr>
+<th></th>
+<td>*for patient under 12</td>
+</tr>
+<tr>
+<th width="104">Name of Guardian</td>
+<td width="350"><input type="text" name="pguardianname" size="50"></td>
+</tr>
+<tr>
+<th width="104">Relationship with Patient</td>
+<td width="350"><input type="text" name="prelationship" size="30"></td>
+</tr>
+<tr>
+<td width="104"><input type="submit" name="submitBtn" value="Submit"></td>
+<td width="350"><input type="reset" name="resetBtn" value="Clear"></td>
+</tr>
+</table>
+</form>
+</div>
+
+
+<hr>
+<p style="margin:0px" align="center">
+<a href="register.html">Register</a> &nbsp;
+<a href="inventory.html">Inventory</a> &nbsp;
+<a href="data.html">Data</a>
+</p>
+&nbsp;
+<p>Copyright &copy; 2023 SMILEYCARE RECORD SYSTEM &trade;<br>
+No material may be reproduced without written permission<br>
+</p><hr />
+</div>
+</body>
+</html>
